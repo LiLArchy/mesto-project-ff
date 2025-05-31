@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "rm -rf dist && webpack --mode production",
     "dev": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiLArchy/mesto-project-ff.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiLArchy/mesto-project-ff/issues"
+  },
+  "homepage": "https://github.com/LiLArchy/mesto-project-ff#readme",
+
   "devDependencies": {
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
@@ -16,5 +25,6 @@
   },
   "dependencies": {
     "mesto-project-ff": "file:"
+
   }
 }

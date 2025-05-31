@@ -1,4 +1,5 @@
 // webpack.config.js
+
 const path = require("path"); // подключаем path к конфигу вебпак
 
 module.exports = {
@@ -19,4 +20,5 @@ module.exports = {
   },
 };
 
-// переписали точку выхода, используя утилиту path
+
+
