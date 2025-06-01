@@ -18,12 +18,12 @@ function cardAdd (cardItems, deleteCard) {
 
 }
 
-// @todo: Функция удаления карточки
+
 
 const deleteCard = (evt) => {
     evt.target.closest('.card').remove();
 };
-// @todo: Вывести карточки на страницу
+
 
 initialCards.forEach((items => {
     const card = cardAdd(items, deleteCard);
