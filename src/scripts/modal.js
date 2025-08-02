@@ -9,6 +9,7 @@ function handleEscapeClose(evt) {
 
 export function openModal(popup) {
   popup.classList.add("popup_is-opened");
+  popup.classList.add("popup_is-animated");
   document.addEventListener("keydown", handleEscapeClose);
 }
 
